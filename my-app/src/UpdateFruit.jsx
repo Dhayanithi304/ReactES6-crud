@@ -19,8 +19,8 @@ function UpdateFruit() {
       quantity.current.value = res.data.quantity;
       price.current.value = res.data.price;
       imageUrl.current.value = res.data.imageUrl;
-    });update-fruit
-  }, []);
+    });
+  },[]);
 
   const updateFruitHandler = () => {
     var payLoad = {
