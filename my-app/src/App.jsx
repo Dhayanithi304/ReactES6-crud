@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route to="/" element={<AllFruits />} />
-          <Route to="/add-fruit" element={<AddFruit />} />
-          <Route to="/update-fruit/:id" element={<UpdateFruit />} />
+          <Route path="/" element={<AllFruits />} />
+          <Route path="/add-fruit" element={<AddFruit />} />
+          <Route path="/update-fruit/:id" element={<UpdateFruit />} />
         </Routes>
       </Layout>
     </BrowserRouter>
